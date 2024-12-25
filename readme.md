@@ -44,7 +44,7 @@ Follow these steps to set up and run the application:
    ```bash
    php artisan migrate --seed
    ```
-7. **Run the application**
+6. **Run the application**
    ```bash
    php artisan serve
    ```
