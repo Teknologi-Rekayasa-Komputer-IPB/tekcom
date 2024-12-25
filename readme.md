@@ -96,4 +96,5 @@ Below are the steps to develop new features and contribute to this project:
 This project is licensed under the [MIT License](LICENSE)
 
 ## Contact Us
-- [Email](mailto:kevinalmer@apps.ipb.ac.id)
+If you have any questions or need assistance, feel free to reach out to us:
+- **Email**: [kevinalmer@apps.ipb.ac.id](mailto:kevinalmer@apps.ipb.ac.id)
