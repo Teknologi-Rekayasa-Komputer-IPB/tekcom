@@ -1,9 +1,20 @@
 # tek.com
-
 ## About
 **tek.com Project Website** is developed as an all-in-one platform for managing and showcasing activities, achievements, and resources of the **Teknologi Rekayasa Komputer** department. It aims to provide an intuitive and efficient digital presence for both internal and external stakeholders.
 
 It provides an opportunity to enhance and learn new skills while offering a platform for **TEKOM 61** members to channel their talents and interests into a project. Furthermore, it establishes a dedicated information system tailored for **TEKOM 61**.
+
+## Table of Contents
+1. [About](#about)
+2. [Main Features](#main-features)
+3. [Todo List](#todo-list)
+4. [Production Stack](#production-stack)
+5. [Development Tools](#development-tools)
+6. [Usage](#usage)
+7. [Contribution](#contribution)
+8. [Access Server Using SSH](#access-server-using-ssh)
+9. [License](#license)
+10. [Contact Us](#contact-us)
 
 ## Main Features
 - **Department Profile**: Complete information about the **Teknologi Rekayasa Komputer** department.
