@@ -24,40 +24,30 @@ Check out our [Todo List](todo-list.md) for ongoing and upcoming tasks.
 -   [GitHub](https://github.com/)
 
 ## Usage
-
-Below are the steps to use and run this application:
-
-1. Fork this repository.
-2. Clone your forked repository.
-
-```bash
-git clone https://github.com/[USERNAME]/tekcom.git
-```
-
-3. Install composer dependencies.
-
-```bash
-composer install
-```
-
-4. Set up environment variables.
-
-```bash
-cp .env.example .env
-php artisan key:generate
-```
-
-5. Migrate and seed the database.
-
-```bash
-php artisan migrate --seed
-```
-
-6. Run the application.
-
-```bash
-php artisan serve
-```
+Follow these steps to set up and run the application:
+1. **Fork the repository**  
+   Create a copy of this repository under your GitHub account.
+2. **Clone your forked repository to your local machine**
+   ```bash
+   git clone https://github.com/[your-username]/tekcom.git
+   ```
+3. **Install composer dependencies**
+   ```bash
+   composer install
+   ```
+4. **Set up environment variables**
+   ```bash
+   cp .env.example .env
+   php artisan key:generate
+   ```
+5. **Migrate and seed the database**
+   ```bash
+   php artisan migrate --seed
+   ```
+7. **Run the application**
+   ```bash
+   php artisan serve
+   ```
 
 ## Contribution
 
