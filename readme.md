@@ -1,10 +1,10 @@
 # tek.com
 
 ## About
+**tek.com Project Website** is developed as an all-in-one platform for managing and showcasing activities, achievements, and resources of the **Teknologi Rekayasa Komputer** department. It aims to provide an intuitive and efficient digital presence for both internal and external stakeholders.
 
-> **tek.com** Project Website is developed as an all-in-one platform for managing and showcasing activities, achievements, and resources of the Teknologi Rekayasa Komputer department. It aims to provide an intuitive and efficient digital presence for both internal and external stakeholders.
+It provides an opportunity to enhance and learn new skills while offering a platform for **TEKOM 61** members to channel their talents and interests into a project. Furthermore, it establishes a dedicated information system tailored for **TEKOM 61**.
 
-> It provides an opportunity to enhance and learn new skills while offering a platform for TEKOM 61 members to channel their talents and interests into a project. Furthermore, it establishes a dedicated information system tailored for TEKOM 61.
 
 ## Main Features
 
