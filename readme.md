@@ -1,12 +1,12 @@
 # tek.com
 
-## about tek.com
+## About
 
 > **tek.com** Project Website is developed as an all-in-one platform for managing and showcasing activities, achievements, and resources of the Teknologi Rekayasa Komputer department. It aims to provide an intuitive and efficient digital presence for both internal and external stakeholders.
 
 > It provides an opportunity to enhance and learn new skills while offering a platform for TEKOM 61 members to channel their talents and interests into a project. Furthermore, it establishes a dedicated information system tailored for TEKOM 61.
 
-## main feature
+## Main Features
 
 - **Department Profile**: Complete information about the Teknologi Rekayasa Komputer department.
 - **News & Announcements**: Displaying the latest news and important announcements.
@@ -14,15 +14,15 @@
 - etc...
 
 
-## todo lists
+## Todo List
 See our [todo list](todo-list.md)
 
-## Production
+## Production Stack
 -   [PHP 8.x](https://www.php.net/)
 -   [MySQL](https://www.mysql.com/)
 -   [Laravel 10.x](https://laravel.com)
 
-## Development
+## Development Tools
 -   [Git](https://git-scm.com/)
 -   [GitHub](https://github.com/)
 
@@ -98,7 +98,7 @@ git push -u origin --set-upstream YOUR-NEW-FEATURE
 
 8. Navigate to the GitHub UI and create a pull request (PR) from your fork and branch, then merge it with the upstream MAIN branch.
 
-## Access server using ssh
+## Access Server Using SSH
 1. **Save Public and Private Keys**:
    - Store the `id_rsa` (private key) and `id_rsa.pub` (public key) securely in the `.ssh` directory (e.g., `C:\Users\pc-name\.ssh`).
 2. Open terminal
@@ -106,8 +106,8 @@ git push -u origin --set-upstream YOUR-NEW-FEATURE
 4. Enter passphrase
 
 
-## license
+## License
 This project is licensed under the [MIT License](LICENSE)
 
-## contact us
+## Contact Us
 - [Email](mailto:kevinalmer@apps.ipb.ac.id)
