@@ -50,40 +50,35 @@ Follow these steps to set up and run the application:
    ```
 
 ## Contribution
-
 Below are the steps to develop new features and contribute to this project:
 
-1. Fork this repository.
-2. Clone your forked repository.
-3. Make changes or add new features.
-4. Clean up your code using lint.
-
-```bash
-./vendor/bin/pint
-```
-
-5. Create a new branch.
-
-```bash
-git branch YOUR-NEW-FEATURE
-git checkout YOUR-NEW-FEATURE
-```
-
-6. Commit your changes.
-
-```bash
-git init
-git add .
-git commit -m "[Your message] -yourname"
-```
-
-7. Push your branch to your forked repository.
-
-```bash
-git push -u origin --set-upstream YOUR-NEW-FEATURE
-```
-
-8. Navigate to the GitHub UI and create a pull request (PR) from your fork and branch, then merge it with the upstream MAIN branch.
+1. **Fork the repository**  
+   Create a copy of this repository under your GitHub account.
+2. **Clone your forked repository**  
+   Clone the repository to your local machine.
+3. **Make changes or add new features**  
+   Implement your desired changes or new features.
+4. **Clean up your code using lint**  
+   ```bash
+   ./vendor/bin/pint
+   ```
+5. **Create a new branch**
+   ```bash
+   git branch YOUR-NEW-FEATURE
+   git checkout YOUR-NEW-FEATURE
+   ```
+6. **Commit your changes**
+   ```bash
+   git init
+   git add .
+   git commit -m "[Your message] -yourname"
+   ```
+7. **Push your branch to your forked repository**
+   ```bash
+   git push -u origin --set-upstream YOUR-NEW-FEATURE
+   ```
+8. **Create a Pull Request (PR)**  
+   Navigate to the GitHub UI and create a pull request (PR) from your fork and branch, then merge it with the upstream `MAIN` branch.
 
 ## Access Server Using SSH
 1. **Save Public and Private Keys**:
