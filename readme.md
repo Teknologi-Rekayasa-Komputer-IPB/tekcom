@@ -81,12 +81,16 @@ Below are the steps to develop new features and contribute to this project:
    Navigate to the GitHub UI and create a pull request (PR) from your fork and branch, then merge it with the upstream `MAIN` branch.
 
 ## Access Server Using SSH
-1. **Save Public and Private Keys**:
+1. **Save Public and Private Keys**  
    - Store the `id_rsa` (private key) and `id_rsa.pub` (public key) securely in the `.ssh` directory (e.g., `C:\Users\pc-name\.ssh`).
-2. Open terminal
-3. Type `ssh username@ip_address`
-4. Enter passphrase
-
+2. **Open the terminal**
+3. **Type the SSH command**  
+   Run the following command in your terminal:
+   ```bash
+   ssh username@ip_address
+   ```
+4. **Enter the passphrase**  
+   When prompted, enter your passphrase to access the server.
 
 ## License
 This project is licensed under the [MIT License](LICENSE)
