@@ -5,14 +5,11 @@
 
 It provides an opportunity to enhance and learn new skills while offering a platform for **TEKOM 61** members to channel their talents and interests into a project. Furthermore, it establishes a dedicated information system tailored for **TEKOM 61**.
 
-
 ## Main Features
-
-- **Department Profile**: Complete information about the Teknologi Rekayasa Komputer department.
+- **Department Profile**: Complete information about the **Teknologi Rekayasa Komputer** department.
 - **News & Announcements**: Displaying the latest news and important announcements.
 - **Photo & Video Gallery**: Visual documentation in the form of photos and videos of activities.
-- etc...
-
+- **And More**: Additional features coming soon.
 
 ## Todo List
 See our [todo list](todo-list.md)
