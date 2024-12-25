@@ -12,7 +12,7 @@ It provides an opportunity to enhance and learn new skills while offering a plat
 - **And More**: Additional features coming soon.
 
 ## Todo List
-See our [todo list](todo-list.md)
+Check out our [Todo List](todo-list.md) for ongoing and upcoming tasks.
 
 ## Production Stack
 -   [PHP 8.x](https://www.php.net/)
