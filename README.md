@@ -1,66 +1,111 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# tek.com
+## About
+**tek.com Project Website** is developed as an all-in-one platform for managing and showcasing activities, achievements, and resources of the **Teknologi Rekayasa Komputer** department. It aims to provide an intuitive and efficient digital presence for both internal and external stakeholders.
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+It provides an opportunity to enhance and learn new skills while offering a platform for **TEKOM 61** members to channel their talents and interests into a project. Furthermore, it establishes a dedicated information system tailored for **TEKOM 61**.
 
-## About Laravel
+## Table of Contents
+1. [About](#about)
+2. [Main Features](#main-features)
+3. [Todo List](#todo-list)
+4. [Production Stack](#production-stack)
+5. [Development Tools](#development-tools)
+6. [Usage](#usage)
+7. [Contribution](#contribution)
+8. [Access Server Using SSH](#access-server-using-ssh)
+9. [License](#license)
+10. [Contact Us](#contact-us)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Main Features
+- **Department Profile**: Complete information about the **Teknologi Rekayasa Komputer** department.
+- **News & Announcements**: Displaying the latest news and important announcements.
+- **Photo & Video Gallery**: Visual documentation in the form of photos and videos of activities.
+- **And More**: Additional features coming soon.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Todo List
+Check out our [Todo List](todo-list.md) for ongoing and upcoming tasks.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Production Stack
+-   [PHP 8.x](https://www.php.net/)
+-   [MySQL](https://www.mysql.com/)
+-   [Laravel 10.x](https://laravel.com)
 
-## Learning Laravel
+## Development Tools
+-   [Git](https://git-scm.com/)
+-   [GitHub](https://github.com/)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Usage
+Follow these steps to set up and run the application:
+1. **Fork the repository**  
+   Create a copy of this repository under your GitHub account.
+2. **Clone your forked repository to your local machine**
+   ```bash
+   git clone https://github.com/[your-username]/tekcom.git
+   ```
+3. **Install composer dependencies**
+   ```bash
+   composer install
+   ```
+4. **Set up environment variables**
+   ```bash
+   cp .env.example .env
+   php artisan key:generate
+   ```
+5. **Migrate and seed the database**
+   ```bash
+   php artisan migrate --seed
+   ```
+6. **Run the application**
+   ```bash
+   php artisan serve
+   ```
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## Contribution
+Below are the steps to develop new features and contribute to this project:
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+1. **Fork the repository**  
+   Create a copy of this repository under your GitHub account.
+2. **Clone your forked repository**  
+   Clone the repository to your local machine.
+3. **Make changes or add new features**  
+   Implement your desired changes or new features.
+4. **Clean up your code using lint**  
+   ```bash
+   ./vendor/bin/pint
+   ```
+5. **Create a new branch**
+   ```bash
+   git branch YOUR-NEW-FEATURE
+   git checkout YOUR-NEW-FEATURE
+   ```
+6. **Commit your changes**
+   ```bash
+   git init
+   git add .
+   git commit -m "[Your message] -yourname"
+   ```
+7. **Push your branch to your forked repository**
+   ```bash
+   git push -u origin --set-upstream YOUR-NEW-FEATURE
+   ```
+8. **Create a Pull Request (PR)**  
+   Navigate to the GitHub UI and create a pull request (PR) from your fork and branch, then merge it with the upstream `MAIN` branch.
 
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## Access Server Using SSH
+1. **Save Public and Private Keys**  
+   - Store the `id_rsa` (private key) and `id_rsa.pub` (public key) securely in the `.ssh` directory (e.g., `C:\Users\pc-name\.ssh`).
+2. **Open the terminal**
+3. **Type the SSH command**  
+   Run the following command in your terminal:
+   ```bash
+   ssh username@ip_address
+   ```
+4. **Enter the passphrase**  
+   When prompted, enter your passphrase to access the server.
 
 ## License
+This project is licensed under the [MIT License](LICENSE)
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Contact Us
+If you have any questions or need assistance, feel free to reach out to us:
+- **Email**: [kevinalmer@apps.ipb.ac.id](mailto:kevinalmer@apps.ipb.ac.id)
