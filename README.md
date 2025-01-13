@@ -1,5 +1,10 @@
-# tek.com
+<div align="center">
+  <h1>tek.com</h1>
+  <img src="https://github.com/user-attachments/assets/fcc22d8d-5c58-4065-a975-e5ad8b1eece8" alt="Description of Image" />
+</div>
+
 ## About
+
 **tek.com Project Website** is developed as an all-in-one platform for managing and showcasing activities, achievements, and resources of the **Teknologi Rekayasa Komputer** department. It aims to provide an intuitive and efficient digital presence for both internal and external stakeholders.
 
 It provides an opportunity to enhance and learn new skills while offering a platform for **TEKOM 61** members to channel their talents and interests into a project. Furthermore, it establishes a dedicated information system tailored for **TEKOM 61**.
