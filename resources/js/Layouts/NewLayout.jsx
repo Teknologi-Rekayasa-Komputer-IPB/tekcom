@@ -23,7 +23,7 @@ export default function NewLayout({ children }) {
     return (
         <>
 
-            <nav className=" shadow-md py-4 px-6 space-x-20 flex items-center justify-center">
+            <nav className=" shadow-md py-4 px-6 space-x-20 flex items-center justify-center ">
                 {/* Logo & Title */}
                 <div className="flex items-center space-x-3">
                     <img

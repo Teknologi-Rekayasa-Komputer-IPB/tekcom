@@ -29,6 +29,8 @@
 
 <body class=" antialiased overflow-auto font-poppins">
     @inertia
+    <!-- Place <div> tag where you want the feed to appear -->
+
 </body>
 
 </html>

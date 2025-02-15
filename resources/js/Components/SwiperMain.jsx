@@ -1,43 +1,51 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules'; // Import required modules
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules'; // Tambah Autoplay
+import NewsCard from './NewsCard';
+import 'swiper/css'; 
+import 'swiper/css/navigation'; 
+import 'swiper/css/pagination'; 
+import 'swiper/css/scrollbar'; 
 
-
-export default function SwiperMain()
-{
+export default function SwiperMain() {
     return (
         <div>
-        <Swiper
-            modules={[Navigation, Pagination, Scrollbar, A11y]} // Enable modules
-            spaceBetween={50} // Space between slides
-            slidesPerView={1} // Number of slides visible
-            pagination={{ clickable: true }} // Enable pagination
-            scrollbar={{ draggable: true }} // Enable draggable scrollbar
-            onSlideChange={() => console.log('Slide changed')}
-            onSwiper={(swiper) => console.log(swiper)}
-        >
-            <SwiperSlide className=" h-screen w-screen">
-                <div className=" w-screen h-screen flex justify-center items-center">
-                        <h1 className=" text-9xl text-center font-bold">Hello World</h1>
-                </div>
-            </SwiperSlide>
-            
-            <SwiperSlide className=" h-screen w-screen">
-                <div className=" w-screen h-screen flex justify-center items-center">
-                        <h1 className=" text-9xl text-center font-bold">Hello World</h1>
-                </div>
-            </SwiperSlide>
-            <SwiperSlide className=" h-screen w-screen">
-                <div className=" w-screen h-screen flex justify-center items-center">
-                        <h1 className=" text-9xl text-center font-bold">Hello World</h1>
-                </div>
-            </SwiperSlide>
-            <SwiperSlide className=" h-screen w-screen">
-                <div className=" w-screen h-screen flex justify-center items-center">
-                        <h1 className=" text-9xl text-center font-bold">Hello World</h1>
-                </div>
-            </SwiperSlide>
-            
-        </Swiper>
-    </div>
-    )
+            <Swiper
+                modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]} // Tambah Autoplay ke modules
+                spaceBetween={50} 
+                slidesPerView={1} 
+                pagination={{ clickable: true }} 
+                scrollbar={{ draggable: true }} 
+                autoplay={{ delay: 3000, disableOnInteraction: false }} // Konfigurasi autoplay
+                onSlideChange={() => console.log('Slide changed')}
+                onSwiper={(swiper) => console.log(swiper)}
+            >
+                <SwiperSlide className="h-auto w-screen">
+                    <div className="w-screen h-5/6 p-10 flex justify-center items-center space-x-5">
+                        <NewsCard/>
+                        <NewsCard/>
+                        <NewsCard/>
+
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide className="h-auto w-screen">
+                    <div className="w-screen h-5/6 p-10 flex justify-center items-center space-x-5">
+                    <NewsCard/>
+                        <NewsCard/>
+                        <NewsCard/>                    </div>
+                </SwiperSlide>
+                <SwiperSlide className="h-auto w-screen">
+                    <div className="w-screen h-5/6 p-10 flex justify-center items-center space-x-5">
+                    <NewsCard/>
+                        <NewsCard/>
+                        <NewsCard/>                    </div>
+                </SwiperSlide>
+                <SwiperSlide className="h-auto w-screen">
+                    <div className="w-screen h-5/6 p-10 flex justify-center items-center space-x-5">
+                    <NewsCard/>
+                        <NewsCard/>
+                        <NewsCard/>                    </div>
+                </SwiperSlide>
+            </Swiper>
+        </div>
+    );
 }
