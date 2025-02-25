@@ -21,21 +21,20 @@ export default function Welcome() {
                     <div className="flex flex-col justify-center items-center w-full  text-center z-10 px-4">
                         <h2 className=" text-5xl font-semibold">Selamat Datang di</h2>
                         <h1 className=" text-6xl font-extrabold">Teknologi Rekayasa Komputer</h1>
-                        <p className=" mt-6 text-lg">Pelopor Global Dalam Pengembangan Ilmu Komputer untuk
-                            Pertanian, Kelautan, dan Biosains Tropika Modern.</p>
+                        <p className=" mt-7 text-lg w-[100vh] font-semibold animate-pulse">Menjadi program studi yang unggul dan terkemuka dalam menyiapkan SDM Sarjana Terapan yang profesional di bidang rekayasa cerdas pada sistem berbasis komputer.</p>
                     </div>
                 </div>
             </section>
 
-            <section className=" h-screen">
+            <section className=" h-[70vh]">
                 <CardContainer />
             </section>
 
-            <section className=" h-screen">
+            <section className=" h-[70vh]">
                 <CardContainer reverse="true" />
             </section>
 
-            <section className=" h-screen">
+            <section className=" h-[70vh]">
                 <CardContainer />
             </section>
             <section className=" h-[672px]">
