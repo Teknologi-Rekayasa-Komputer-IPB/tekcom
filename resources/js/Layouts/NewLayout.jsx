@@ -3,7 +3,6 @@ import Footer from '@/Components/Footer';
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button } from "@nextui-org/react";
 import { useState } from 'react';
 
-
 export const AcmeLogo = () => {
     return (
         <svg fill="none" height="36" viewBox="0 0 32 32" width="36">
@@ -22,8 +21,7 @@ export default function NewLayout({ children }) {
 
     return (
         <>
-
-            <nav className=" shadow-md py-4 px-6 space-x-20 flex items-center justify-center ">
+            <nav className="sticky top-0 bg-white shadow-md py-4 px-6 space-x-20 flex items-center justify-center z-50">
                 {/* Logo & Title */}
                 <div className="flex items-center space-x-3">
                     <img
@@ -83,13 +81,12 @@ export default function NewLayout({ children }) {
                 )}
             </nav>
 
-
             {children}
 
             <footer>
                 <Footer />
             </footer>
-
         </>
     );
 }
+    

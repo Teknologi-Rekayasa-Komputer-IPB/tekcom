@@ -27,15 +27,15 @@ export default function Welcome() {
                 </div>
             </section>
 
-            <section>
+            <section className=" h-screen">
                 <CardContainer />
             </section>
 
-            <section>
+            <section className=" h-screen">
                 <CardContainer reverse="true" />
             </section>
 
-            <section>
+            <section className=" h-screen">
                 <CardContainer />
             </section>
             <section className=" h-[672px]">
@@ -62,7 +62,7 @@ export default function Welcome() {
                 <br />
 
             </section>
-            <section>
+            <section className="">
                 <div className=" flex justify-center items-center flex-col">
                     <div className=" w-full flex items-center flex-col justify-center mt-20 h-[100px]">
                         <h1 className=" text-[60px] font-extrabold font-poppins text-center max-w-[900px]">Prestasi Cemerlang Tingkat</h1>
